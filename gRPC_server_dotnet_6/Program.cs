@@ -2,10 +2,11 @@ using gRPC_server_dotnet_6.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Additional configuration is required to successfully run gRPC on macOS.
+// For instructions on how to configure Kestrel and gRPC clients on macOS, visit https://go.microsoft.com/fwlink/?linkid=2099682
 
 builder.WebHost.ConfigureKestrel(options =>
              {
@@ -13,9 +14,6 @@ builder.WebHost.ConfigureKestrel(options =>
                  options.ListenLocalhost(5000, o => o.Protocols =
                      HttpProtocols.Http2);
              });
-
-// Additional configuration is required to successfully run gRPC on macOS.
-// For instructions on how to configure Kestrel and gRPC clients on macOS, visit https://go.microsoft.com/fwlink/?linkid=2099682
 
 // Add services to the container.
 builder.Services.AddGrpc();
