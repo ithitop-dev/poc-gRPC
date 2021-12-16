@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "gRPC_server_dotnet_6";
+option csharp_namespace = "gRPC_client_console_app";
 
 package greet;
 
