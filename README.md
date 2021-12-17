@@ -26,7 +26,7 @@ Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work wi
 
 - First gRCP Client connected with gRCP server
 
-### Workaround
+### Let's to do.
 
 - Open VS Code or Terminal.
 
