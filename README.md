@@ -3,23 +3,26 @@
 
 ## Welcome to first gRCP Projects
 
+Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work with gRPC client.
+
 ---
 
-### Intro
+### Introduce
 
-> gRPC is a modern API that fastest transfers data  because it uses
+> gRPC is a modern API gRPC is a modern open source high performance Remote Procedure Call (RPC) 
+> that fastest transfers data  because it uses
 > protocol buffers to serialize payload data as binary for transfer that
 > can run in any environment such as C# node go-lang and others.
 
 ### Prerequisites
 
-- Visual Studio Code or Visual Studio (for Windows or MAC * recommended)
+- Visual Studio Code
 
 - C# for Visual Studio Code (latest version)
 
-### What's Goals
+### What's Goals 
 
-- First gRCP Server (asp.net core 5)
+- First gRCP Server (minimal api asp.net core 6)
 
 - First gRCP Client connected with gRCP server
 
@@ -207,4 +210,6 @@ HttpProtocols.Http2);
 
 ```
 
-### Reference
+### References
+
+- https://grpc.io/
