@@ -22,9 +22,9 @@ Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work wi
 
 ### What's Goals 🎯
 
-- First gRCP Server (minimal api asp.net core 6)
+- Built gRCP Server (minimal api asp.net core 6)
 
-- First gRCP Client connected with gRCP server
+- Built gRCP Client connected with gRCP server
 
 ### Let's to do.
 
