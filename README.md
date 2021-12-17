@@ -13,17 +13,19 @@ Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work wi
 >transformation data is faster or simple than other payloads such as JSON or XML 
 >that can support any programming language.
 
+### What's Goals 🎯
+
+- Built gRCP Server (minimal api asp.net core 6)
+
+- Built gRCP Client connected with gRCP server
+
+
 ### Prerequisites 💻
 
 - Visual Studio Code
 
 - C# for Visual Studio Code (latest version)
 
-### What's Goals 🎯
-
-- Built gRCP Server (minimal api asp.net core 6)
-
-- Built gRCP Client connected with gRCP server
 
 ### Let's do it.
 
