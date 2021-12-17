@@ -1,7 +1,7 @@
 
-# POC-gRPC
+# POC-gRPC API and Buffer Protocol.
 
-## Welcome to first gRCP Projects
+## Welcome to first gRCP Projects 
 
 Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work with gRPC client.
 
@@ -14,13 +14,13 @@ Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work wi
 > protocol buffers to serialize payload data as binary for transfer that
 > can run in any environment such as C# node go-lang and others.
 
-### Prerequisites
+### Prerequisites 💻
 
 - Visual Studio Code
 
 - C# for Visual Studio Code (latest version)
 
-### What's Goals 
+### What's Goals 🎯
 
 - First gRCP Server (minimal api asp.net core 6)
 
@@ -96,8 +96,7 @@ dotnet  run
 
 If you have a problem while running the project it's an issue on #1 in the Troubleshooting title.
 
-- Done! The gRCP project is listening on <https://localhost:5000>
-
+- Done! The gRCP project is listening on <https://localhost:5000> 🎉
 ---
 
 ##### First gRCP Client (console application with asp.net core 6 )
@@ -172,8 +171,7 @@ Press  any  key  to  exit...
 
 ```
 
-- Done.
-
+- Done. 🎊
 ---
 
 ### Toubleshoting
