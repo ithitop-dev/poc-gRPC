@@ -9,10 +9,9 @@ Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work wi
 
 ### Introduce
 
-> gRPC is a modern API gRPC is a modern open source high performance Remote Procedure Call (RPC) 
-> that fastest transfers data  because it uses
-> protocol buffers to serialize payload data as binary for transfer that
-> can run in any environment such as C# node go-lang and others.
+>gRPC is a modern API open-source developed by google. that uses Protocol Buffers to serialize payload data as binary base message structure and 
+>transformation data is faster or simple than other payloads such as JSON or XML 
+>that can support any programming language.
 
 ### Prerequisites 💻
 
