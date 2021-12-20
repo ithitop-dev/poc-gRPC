@@ -1,7 +1,7 @@
 
-# POC-gRPC
+# POC-gRPC API and Buffer Protocol.
 
-## Welcome to first gRCP Projects
+## Welcome to first gRCP Projects 
 
 Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work with gRPC client.
 
@@ -9,24 +9,25 @@ Day 1 for first gRPC API that is proving of concept (POC) in gRPC server work wi
 
 ### Introduce
 
-> gRPC is a modern API gRPC is a modern open source high performance Remote Procedure Call (RPC) 
-> that fastest transfers data  because it uses
-> protocol buffers to serialize payload data as binary for transfer that
-> can run in any environment such as C# node go-lang and others.
+>gRPC is a modern API open-source developed by google. that uses Protocol Buffers to serialize payload data as binary base message structure and 
+>transformation data is faster or simple than other payloads such as JSON or XML 
+>that can support any programming language.
 
-### Prerequisites
+### What's Goals 🎯
+
+- Built gRCP Server (minimal api asp.net core 6)
+
+- Built gRCP Client connected with gRCP server
+
+
+### Prerequisites 💻
 
 - Visual Studio Code
 
 - C# for Visual Studio Code (latest version)
 
-### What's Goals 
 
-- First gRCP Server (minimal api asp.net core 6)
-
-- First gRCP Client connected with gRCP server
-
-### Workaround
+### Let's do it.
 
 - Open VS Code or Terminal.
 
@@ -96,8 +97,7 @@ dotnet  run
 
 If you have a problem while running the project it's an issue on #1 in the Troubleshooting title.
 
-- Done! The gRCP project is listening on <https://localhost:5000>
-
+- Done! The gRCP project is listening on <https://localhost:5000> 🎉
 ---
 
 ##### First gRCP Client (console application with asp.net core 6 )
@@ -172,8 +172,7 @@ Press  any  key  to  exit...
 
 ```
 
-- Done.
-
+- Done. 🎊
 ---
 
 ### Toubleshoting
@@ -212,5 +211,6 @@ HttpProtocols.Http2);
 
 ### References
 
-- <https://grpc.io/>
-- <https://docs.microsoft.com/en-us/aspnet/core/tutorials/grpc/grpc-start?view=aspnetcore-6.0&tabs=visual-studio>
+- https://grpc.io/
+- https://docs.microsoft.com/en-us/aspnet/core/tutorials/grpc/grpc-start?view=aspnetcore-6.0&tabs=visual-studio
+- https://www.baeldung.com/rest-vs-grpc
